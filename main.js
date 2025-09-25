@@ -75,7 +75,7 @@ class Ball {
 
 const balls = [];
 
-while (balls.length < 25) {
+while (balls.length < 20) {
   const size = random(10, 20);
   const ball = new Ball(
     // ball position always drawn at least one ball width
@@ -92,7 +92,7 @@ while (balls.length < 25) {
 }
 
 function loop() {
-  ctx.fillStyle = "rgb(0 0 0 / 25%)";
+  ctx.fillStyle = "rgb(0 0 0 / 100%)";
   ctx.fillRect(0, 0, width, height);
 
   for (const ball of balls) {
