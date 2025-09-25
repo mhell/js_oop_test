@@ -1,1 +1,1 @@
-A simple JavaScript tutorial
+A simple JavaScript tutorial.
